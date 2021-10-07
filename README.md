@@ -1,5 +1,6 @@
 # Check-or-Enable-TLS-1.2-with-PowerShell
-Pasting Docs Microsoft article extract for future reference
+
+## Pasting Docs Microsoft article extract for future reference
 
 - As of April 2020, the PowerShell Gallery only supports connections using TLS 1.2 or later. For more information, see [PowerShell Gallery TLS Support](https://devblogs.microsoft.com/powershell/powershell-gallery-tls-support/).
 
