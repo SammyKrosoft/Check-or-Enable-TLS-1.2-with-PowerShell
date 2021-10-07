@@ -1,3 +1,22 @@
+---
+title: About the Exchange Online PowerShell V2 module
+ms.author: chrisda
+author: chrisda
+manager: dansimp
+ms.date:
+ms.audience: Admin
+audience: Admin
+ms.topic: article
+ms.service: exchange-powershell
+ms.reviewer: navgupta
+ms.localizationpriority: high
+ms.collection: Strat_EX_Admin
+ms.custom:
+ms.assetid:
+search.appverid: MET150
+description: "Admins can learn about the installation, maintenance, and design of the Exchange Online PowerShell V2 module that they use to connect to all Exchange-related PowerShell environments in Microsoft 365."
+---
+
 # Check-or-Enable-TLS-1.2-with-PowerShell
 
 ## Pasting Docs Microsoft article extract for future reference
