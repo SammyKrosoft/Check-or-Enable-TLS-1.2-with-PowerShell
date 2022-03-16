@@ -10,6 +10,12 @@
   [Net.ServicePointManager]::SecurityProtocol
   ```
 
+And to list the available protocols on your local workstation, and on your local Powershell profile you're using (*NOTE that you might have different results whether you launched your PowerShell session using elevated prompt*):
+
+```powershell
+[enum]::GetNames([System.Net.SecurityProtocolType])
+```
+
   As described in the PowerShell Gallery TLS Support article, to *temporarily* change the security protocol to TLS 1.2 to install the PowerShellGet or ExchangeOnlineManagement modules, run the following command in Windows PowerShell *before* you install the module:
 
   ```powershell
@@ -33,3 +39,8 @@
   For more information, see [SchUseStrongCrypto](https://docs.microsoft.com/en-us/dotnet/framework/network-programming/tls#schusestrongcrypto).
   
   >Source: [About the Exchange Online PowerShell V2 module](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online-powershell-v2?view=exchange-ps#troubleshoot-installing-the-exo-v2-module)
+
+
+## How-To - List all available security protocols from Powershell
+
+
